@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Travel Destination Predictor</title>
+</head>
+<body>
+    <h2>Travel Destination Predictor</h2>
+    <form method="POST">
+        <label>Age: <input type="number" name="age" required></label><br><br>
+        <label>Gender:
+            <select name="gender" required>
+                <option value="1">Male</option>
+                <option value="0">Female</option>
+            </select>
+        </label><br><br>
+        <label>Travel Type:
+            <select name="travel_type" required>
+                <option value="Adventure">Adventure</option>
+                <option value="Relaxation">Relaxation</option>
+                <option value="Cultural">Cultural</option>
+            </select>
+        </label><br><br>
+        <button type="submit">Predict</button>
+    </form>
+
+    {% if prediction %}
+        <div>
+            <h3>Recommended Destination: {{ prediction }}</h3>
+        </div>
+    {% endif %}
+</body>
+</html>
