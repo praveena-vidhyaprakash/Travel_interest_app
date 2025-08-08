@@ -1,8 +1,4 @@
-Here’s a ready-to-use **README.md** for your *Travel\_interest\_app*, including a placeholder for the screenshot of the output.
 
-You can replace the screenshot file name with your actual image file (e.g., `output.png`) after adding it to the repository.
-
----
 
 ```markdown
 # Travel Interest App
@@ -74,8 +70,5 @@ This project is a great starting point for learning how to build and use machine
 It’s simple enough for beginners but still gives a hands-on feel for working with datasets, training models,  
 and making predictions that feel useful in a real-world context.
 
-```
-
----
 
 
