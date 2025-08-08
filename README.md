@@ -1,5 +1,4 @@
 
-
 ```markdown
 # Travel Interest App
 
@@ -47,7 +46,7 @@ Travel\_interest\_app/
    python app.py
    ```
 
-2. **Train the model** (optional, if you want to retrain with updated data):
+2. **Train the model** 
 
    ```bash
    python train.py
@@ -56,6 +55,7 @@ Travel\_interest\_app/
 ## Example Output
 
 ![Travel Interest App Output]
+
 <img width="947" height="539" alt="image" src="https://github.com/user-attachments/assets/6f64ba7e-35c2-45e9-88c6-2d05d08cd51b" />
 
 
